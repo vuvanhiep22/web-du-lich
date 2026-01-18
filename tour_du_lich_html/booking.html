@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt Tour - GORETREAT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-mountain"></i>
+                    <a href="index.html" style="color: inherit; text-decoration: none;">
+                        <span>GORETREAT</span>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Trang Chủ</a>
+                    <a href="tours.html" class="nav-link">Tours</a>
+                    <a href="about.html" class="nav-link">Giới Thiệu</a>
+                    <a href="contact.html" class="nav-link">Liên Hệ</a>
+                    <a href="login.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        Tài Khoản
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-header">
+                <h1>Đặt Tour</h1>
+                <p>Vui lòng điền thông tin để hoàn tất đặt tour</p>
+            </div>
+
+            <div class="booking-layout">
+                <div class="booking-main">
+                    <!-- Tour Summary -->
+                    <div class="booking-card">
+                        <h2>Thông Tin Tour</h2>
+                        <div class="tour-summary">
+                            <img src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=300" alt="Tour">
+                            <div class="tour-summary-info">
+                                <h3>Tour Đài Loan 5N4Đ HCM - Đài trung - Cao Hùng - Đài bắc</h3>
+                                <p><i class="fas fa-calendar"></i> Ngày khởi hành: <strong>25/02/2024</strong></p>
+                                <p><i class="fas fa-users"></i> Số người: <strong>2 người</strong></p>
+                                <p><i class="fas fa-clock"></i> Thời gian: <strong>5 Ngày 4 Đêm</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="booking-card">
+                        <h2>Thông Tin Liên Hệ</h2>
+                        <form class="booking-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Họ và Tên *</label>
+                                    <input type="text" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email *</label>
+                                    <input type="email" class="form-input" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Số Điện Thoại *</label>
+                                    <input type="tel" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Ngày Sinh</label>
+                                    <input type="date" class="form-input">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Địa Chỉ</label>
+                                <input type="text" class="form-input" placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh/thành phố">
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Traveler Information -->
+                    <div class="booking-card">
+                        <h2>Thông Tin Người Đi Tour</h2>
+                        <div class="traveler-form">
+                            <div class="traveler-item">
+                                <h3>Người 1</h3>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Họ và Tên *</label>
+                                        <input type="text" class="form-input" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Giới Tính *</label>
+                                        <select class="form-input" required>
+                                            <option>Nam</option>
+                                            <option>Nữ</option>
+                                            <option>Khác</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Ngày Sinh *</label>
+                                        <input type="date" class="form-input" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Số CMND/CCCD/Passport *</label>
+                                        <input type="text" class="form-input" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="traveler-item">
+                                <h3>Người 2</h3>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Họ và Tên *</label>
+                                        <input type="text" class="form-input" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Giới Tính *</label>
+                                        <select class="form-input" required>
+                                            <option>Nam</option>
+                                            <option>Nữ</option>
+                                            <option>Khác</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Ngày Sinh *</label>
+                                        <input type="date" class="form-input" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Số CMND/CCCD/Passport *</label>
+                                        <input type="text" class="form-input" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Payment Method -->
+                    <div class="booking-card">
+                        <h2>Phương Thức Thanh Toán</h2>
+                        <div class="payment-methods">
+                            <label class="payment-option">
+                                <input type="radio" name="payment" value="bank" checked>
+                                <div class="payment-info">
+                                    <i class="fas fa-university"></i>
+                                    <div>
+                                        <strong>Chuyển Khoản Ngân Hàng</strong>
+                                        <p>Thanh toán qua chuyển khoản ngân hàng</p>
+                                    </div>
+                                </div>
+                            </label>
+                            <label class="payment-option">
+                                <input type="radio" name="payment" value="card">
+                                <div class="payment-info">
+                                    <i class="fas fa-credit-card"></i>
+                                    <div>
+                                        <strong>Thẻ Tín Dụng/Ghi Nợ</strong>
+                                        <p>Visa, Mastercard, JCB</p>
+                                    </div>
+                                </div>
+                            </label>
+                            <label class="payment-option">
+                                <input type="radio" name="payment" value="wallet">
+                                <div class="payment-info">
+                                    <i class="fas fa-wallet"></i>
+                                    <div>
+                                        <strong>Ví Điện Tử</strong>
+                                        <p>MoMo, ZaloPay, VNPay</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="booking-card">
+                        <h2>Ghi Chú</h2>
+                        <div class="form-group">
+                            <textarea class="form-input" rows="4" placeholder="Ghi chú thêm (nếu có)"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking Summary -->
+                <div class="booking-sidebar">
+                    <div class="booking-summary-card">
+                        <h2>Tóm Tắt Đặt Tour</h2>
+                        <div class="summary-item">
+                            <span>Tour:</span>
+                            <span>Đài Loan 5N4Đ</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Số người:</span>
+                            <span>2 người</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Giá tour/người:</span>
+                            <span>13.390.000 đ</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Phí dịch vụ:</span>
+                            <span>500.000 đ</span>
+                        </div>
+                        <div class="summary-divider"></div>
+                        <div class="summary-total">
+                            <span>Tổng Cộng:</span>
+                            <span class="total-price">27.280.000 đ</span>
+                        </div>
+                        <div class="booking-terms">
+                            <label class="checkbox-label">
+                                <input type="checkbox" required>
+                                <span>Tôi đồng ý với <a href="#">điều khoản và điều kiện</a></span>
+                            </label>
+                        </div>
+                        <button class="booking-submit-btn" onclick="window.location.href='success.html'">
+                            Xác Nhận Đặt Tour
+                        </button>
+                        <p class="booking-note">
+                            <i class="fas fa-info-circle"></i>
+                            Sau khi đặt tour, chúng tôi sẽ liên hệ xác nhận trong vòng 24 giờ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Về Chúng Tôi</h4>
+                    <ul>
+                        <li><a href="about.html">Giới thiệu về công ty</a></li>
+                        <li><a href="contact.html">Liên hệ hợp tác kinh doanh</a></li>
+                        <li><a href="#">Danh sách đại lý</a></li>
+                        <li><a href="#">Tuyển dụng mới nhất</a></li>
+                        <li><a href="#">Hướng dẫn mua tour du lịch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Chính Sách</h4>
+                    <ul>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách đặt hàng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Chính sách sử dụng</a></li>
+                        <li><a href="#">Chính sách kiểm hàng</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Tổng Đài Hỗ Trợ</h4>
+                    <ul>
+                        <li>Mua ngay tại: <strong>1900 1800</strong></li>
+                        <li>Bảo hành tại: <strong>1900 1900</strong></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Kết Nối</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="app-downloads">
+                        <a href="#" class="app-link">
+                            <i class="fab fa-apple"></i>
+                            <span>Tải ứng dụng tại App Store</span>
+                        </a>
+                        <a href="#" class="app-link">
+                            <i class="fab fa-google-play"></i>
+                            <span>Tải ứng dụng tại Google Play</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

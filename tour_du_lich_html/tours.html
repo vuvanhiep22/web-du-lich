@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours - GORETREAT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-mountain"></i>
+                    <a href="index.html" style="color: inherit; text-decoration: none;">
+                        <span>GORETREAT</span>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Trang Chủ</a>
+                    <a href="tours.html" class="nav-link active">Tours</a>
+                    <a href="about.html" class="nav-link">Giới Thiệu</a>
+                    <a href="contact.html" class="nav-link">Liên Hệ</a>
+                    <a href="login.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        Tài Khoản
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero-background"></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Danh Sách Tours</h1>
+                <p>Khám phá những điểm đến tuyệt vời cùng GORETREAT</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label>Điểm Đến:</label>
+                    <select class="filter-select">
+                        <option>Tất Cả</option>
+                        <option>Đà Lạt</option>
+                        <option>Phú Quốc</option>
+                        <option>Nha Trang</option>
+                        <option>Đà Nẵng</option>
+                        <option>Nước Ngoài</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Giá:</label>
+                    <select class="filter-select">
+                        <option>Tất Cả</option>
+                        <option>Dưới 5 triệu</option>
+                        <option>5 - 10 triệu</option>
+                        <option>10 - 20 triệu</option>
+                        <option>Trên 20 triệu</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Sắp Xếp:</label>
+                    <select class="filter-select">
+                        <option>Mặc định</option>
+                        <option>Giá tăng dần</option>
+                        <option>Giá giảm dần</option>
+                        <option>Đánh giá cao nhất</option>
+                    </select>
+                </div>
+                <button class="filter-btn">Tìm Kiếm</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours List -->
+    <section class="tours-list-section">
+        <div class="container">
+            <div class="tours-grid">
+                <!-- Tour 1 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=400" alt="Tour Đài Loan">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Tour Đài Loan 5N4Đ HCM - Đài trung - Cao Hùng - Đài bắc</h3>
+                        <div class="tour-rating">
+                            <span class="rating-text">Tuyệt vời</span>
+                            <span class="rating-count">| 5 đánh giá</span>
+                        </div>
+                        <p class="tour-description">Bảo tàng - Kỹ Mỹ - chiêm Bái Phật Quang Sơn Tự<br>Phố Cổ Thập Phần - Bảo Tàng Quốc Gia Đài loan</p>
+                        <div class="tour-pricing">
+                            <span class="old-price">14.990.000 đ</span>
+                            <span class="new-price">13.390.000 đ</span>
+                        </div>
+                        <a href="tour-detail.html" class="tour-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+
+                <!-- Tour 2 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=400" alt="Tour Singapore">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Tour Singapore - Malaysia 4N3Đ: HCM - Sentosa - Genting - Động Batu</h3>
+                        <div class="tour-rating">
+                            <span class="rating-text">Tuyệt vời</span>
+                            <span class="rating-count">| 18 đánh giá</span>
+                        </div>
+                        <p class="tour-description">Cao Nguyên Genting - Tháp Đôi - Động Batu<br>Garden by the Bay</p>
+                        <div class="tour-pricing">
+                            <span class="old-price">10.990.000 đ</span>
+                            <span class="new-price">9.490.000 đ</span>
+                        </div>
+                        <a href="tour-detail.html" class="tour-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+
+                <!-- Tour 3 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400" alt="Tour Trung Quốc">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Tour Trung Quốc Đường Bộ 4N4Đ: Hà Nội - Lào Cai - Hà Khẩu - Đại Lý</h3>
+                        <div class="tour-duration">4 Ngày 4 Đêm</div>
+                        <p class="tour-description">Santorini Phương Đông<br>Tặng Trà Chiều Tại Santorini - Hồ Nhĩ Hải</p>
+                        <div class="tour-pricing">
+                            <span class="new-price">6.690.000 đ</span>
+                        </div>
+                        <a href="tour-detail.html" class="tour-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+
+                <!-- Tour 4 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=400" alt="Tour Đài Loan">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Tour Đài Loan 5N4Đ HCM - Đài trung - Cao Hùng - Đài bắc</h3>
+                        <div class="tour-duration">4 Ngày 4 Đêm</div>
+                        <p class="tour-description">Làng Cổ Oshino Hakkai - Núi Phú Sĩ<br>Trượt Tuyết Fuji - Đền Sengent</p>
+                        <div class="tour-pricing">
+                            <span class="new-price">27.990.000 đ</span>
+                        </div>
+                        <a href="tour-detail.html" class="tour-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+
+                <!-- Tour 5 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=400" alt="Tour Thái Lan">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Tour Thái Lan 5N4Đ: HCM - Bangkok - Pattaya - Lâu Đài Tỉ Phú - Vường Bách Thảo Nongnooch</h3>
+                        <div class="tour-rating">
+                            <span class="rating-text">Tuyệt vời</span>
+                            <span class="rating-count">| 3 đánh giá</span>
+                        </div>
+                        <p class="tour-description">Làng Lâu Đài Tỷ Phú Sukhawadee<br>Cafe Boeing 747 - Công Viên Nongnooch</p>
+                        <div class="tour-pricing">
+                            <span class="old-price">7.790.000 đ</span>
+                            <span class="new-price">6.490.000 đ</span>
+                        </div>
+                        <a href="tour-detail.html" class="tour-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+
+                <!-- Tour 6 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400" alt="Du Thuyền">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Du Thuyền Genting Dream 3N2Đ: Singgapore - Malaysia</h3>
+                        <div class="tour-rating">
+                            <span class="rating-text">Tuyệt vời</span>
+                            <span class="rating-count">| 12 đánh giá</span>
+                        </div>
+                        <p class="tour-description">Show diễn quốc tế<br>Trọn gói 3 bữa ăn uống / ngày<br>Khám phá Singgapore & Malaysia</p>
+                        <div class="tour-pricing">
+                            <span class="old-price">7.990.000 đ</span>
+                            <span class="new-price">5.990.000 đ</span>
+                        </div>
+                        <a href="tour-detail.html" class="tour-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+
+                <!-- Tour 7 - Đà Lạt -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400" alt="Tour Đà Lạt">
+                    </div>
+                    <div class="tour-content">
+                        <h3>TOUR ĐÀ LẠT 3N2Đ</h3>
+                        <div class="tour-rating">
+                            <span class="rating-text">Tuyệt vời</span>
+                            <span class="rating-count">| 25 đánh giá</span>
+                        </div>
+                        <p class="tour-description">Thác Datanla - thác nước đẹp - Thiền Viện Trúc Lâm<br>Đường Hầm Điêu Khắc - Đỉnh Langbiang</p>
+                        <div class="tour-pricing">
+                            <span class="new-price">2.500.000 - 3.000.000 đ</span>
+                        </div>
+                        <a href="tour-detail.html" class="tour-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+
+                <!-- Tour 8 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=400" alt="Tour Phú Quốc">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Tour Phú Quốc 4N3Đ: Khám Phá Đảo Ngọc</h3>
+                        <div class="tour-rating">
+                            <span class="rating-text">Tuyệt vời</span>
+                            <span class="rating-count">| 32 đánh giá</span>
+                        </div>
+                        <p class="tour-description">Bãi Sao - Bãi Dài - Vinpearl Land<br>Chợ Đêm Dinh Cậu - Nhà Tù Phú Quốc</p>
+                        <div class="tour-pricing">
+                            <span class="old-price">4.990.000 đ</span>
+                            <span class="new-price">3.990.000 đ</span>
+                        </div>
+                        <a href="tour-detail.html" class="tour-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+
+                <!-- Tour 9 -->
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=400" alt="Tour Nha Trang">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Tour Nha Trang 3N2Đ: Thành Phố Biển Xinh Đẹp</h3>
+                        <div class="tour-rating">
+                            <span class="rating-text">Tuyệt vời</span>
+                            <span class="rating-count">| 28 đánh giá</span>
+                        </div>
+                        <p class="tour-description">Vinpearl Land - Tháp Bà Ponagar<br>Đảo Hòn Mun - Viện Hải Dương Học</p>
+                        <div class="tour-pricing">
+                            <span class="old-price">3.990.000 đ</span>
+                            <span class="new-price">2.990.000 đ</span>
+                        </div>
+                        <a href="tour-detail.html" class="tour-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <a href="#" class="page-link">4</a>
+                <a href="#" class="page-link">5</a>
+                <a href="#" class="page-link">Tiếp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Về Chúng Tôi</h4>
+                    <ul>
+                        <li><a href="about.html">Giới thiệu về công ty</a></li>
+                        <li><a href="contact.html">Liên hệ hợp tác kinh doanh</a></li>
+                        <li><a href="#">Danh sách đại lý</a></li>
+                        <li><a href="#">Tuyển dụng mới nhất</a></li>
+                        <li><a href="#">Hướng dẫn mua tour du lịch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Chính Sách</h4>
+                    <ul>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách đặt hàng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Chính sách sử dụng</a></li>
+                        <li><a href="#">Chính sách kiểm hàng</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Tổng Đài Hỗ Trợ</h4>
+                    <ul>
+                        <li>Mua ngay tại: <strong>1900 1800</strong></li>
+                        <li>Bảo hành tại: <strong>1900 1900</strong></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Kết Nối</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="app-downloads">
+                        <a href="#" class="app-link">
+                            <i class="fab fa-apple"></i>
+                            <span>Tải ứng dụng tại App Store</span>
+                        </a>
+                        <a href="#" class="app-link">
+                            <i class="fab fa-google-play"></i>
+                            <span>Tải ứng dụng tại Google Play</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
